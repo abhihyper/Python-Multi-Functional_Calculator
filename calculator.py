@@ -1,3 +1,24 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🚀 Features
+
+1. ✅ Basic Calculator  
+Performs basic math operations (+, -, *, /) between two numbers with proper error handling for division by zero.
+
+2. 🎂 Age Calculator  
+Calculates your current age from your date of birth using Python’s built-in `datetime` module.
+
+3. 💱 USD to INR Converter  
+Converts US Dollars to Indian Rupees using a fixed exchange rate (₹83.20 per $1), which you can update manually.
+
+⚙️ Technologies Used
+Python 3
+
+Built-in datetime module
+
+-----------------------------------------------
+
+
+
 import datetime
 
 def add(x, y):
@@ -79,3 +100,49 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+----------------OUTPUT-----------------------OUTPUT---------------------------OUTPUT------------------------------OUTPUT--------------------------------------------------------------------------
+--- Multi Functional Calculator ---
+1. Basic Calculator       
+2. Age Calculator
+3. Dollar to INR Converter
+4. Exit
+Enter your choice (1-4): 1
+
+--- Basic Calculator ---
+Enter first number: 3   
+Enter second number: 6
+Choose operation (+, -, *, /): -
+Result: -3.0
+
+--- Multi Functional Calculator ---
+1. Basic Calculator
+2. Age Calculator
+3. Dollar to INR Converter
+4. Exit
+Enter your choice (1-4): 2
+
+--- Age Calculator ---
+Enter your date of birth (YYYY-MM-DD): 2003-04-23
+You are 21 years old.
+
+--- Multi Functional Calculator ---
+1. Basic Calculator
+2. Age Calculator
+3. Dollar to INR Converter
+Enter your choice (1-4): 3
+
+--- Dollar to INR Converter ---
+Enter amount in USD: 1
+$1.0 USD = ₹83.20 INR
+
+--- Multi Functional Calculator ---
+1. Basic Calculator
+2. Age Calculator
+3. Dollar to INR Converter
+4. Exit
+Enter your choice (1-4): 4
+Exiting the program. Goodbye!
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
